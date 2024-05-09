@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sơ Yếu Lý Lịch</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c7dcd0;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #9e8b12;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .profile-img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-img img {
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #7b0b0b;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .info {
+            margin-left: 20%;
+        }
+        .info h3 {
+            text-align: center;
+        }
+        .info p {
+            text-indent: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-img">
+            <img src="https://scontent.fhan9-1.fna.fbcdn.net/v/t39.30808-6/431862292_425911976582117_4471587080701924392_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHQ8oz3tTXHLwUlLmBWdhFHfWuUGAHYWHx9a5QYAdhYfGbqmuexUYiEGyuoubp7ZwmlJcqn3CEmFFV9tzjstmXP&_nc_ohc=8hVjcoBQudwQ7kNvgEgXvx5&_nc_ht=scontent.fhan9-1.fna&oh=00_AfAjcLB0E33HWmAa-2kUnFgHCsWjoUPjINEu-pmx5n42DA&oe=66420801" height="200px" alt="tan tan">
+        </div>
+        <div>
+            <a style ="text-align: center;">
+            <h3>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>
+            <h3>Độc lập - Tự do - Hạnh phúc</h3>
+            <h2>SƠ YẾU LÝ LỊCH</h2>
+            </a>
+        </div>
+        <div class="info">
+            <h3 style="text-align: left;">THÔNG TIN CÁ NHÂN</h3>
+            <p><strong>Họ và tên:</strong> Ngô Ngọc Tân</p>
+            <p><strong>Ngày sinh:</strong> 02/08/2005</p>
+            <p><strong>Giới tính:</strong> Nam</p>
+            <p><strong>Địa chỉ:</strong> nhà tang thanh hóa</p>
+            <p><strong>Điện thoại:</strong> 0123 456 789</p>
+            <p><img src="data:image/jpeg;base64,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"height="10px"> Email:ngongoctan282005@gmail.com</p>
+            <p><img src="https://cdn.tgdd.vn/2020/03/GameApp/Facebook-200x200.jpg"height ="20px"><a href="https://www.facebook.com/profile.php?id=100074899541410&mibextid=rS40aB7S9Ucbxw6v">Facebook</a></p>
+        
+        </div>
+        <div class="footer">
+            <p>Người làm sơ yếu lý lịch</p>
+          <img src="https://cdn.tgdd.vn/Files/2018/03/31/1078566/2aa25123-82fd-44e8-894a-a58fff098dc1_800x600.gif" height="100px"text-align: right;"></a>
+        </div>
+    </div>
+</body>
+</html>
